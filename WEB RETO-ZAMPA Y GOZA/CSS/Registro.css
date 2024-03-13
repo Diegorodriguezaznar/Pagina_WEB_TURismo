@@ -1,0 +1,184 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff9d41;
+    padding: 1rem;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 50px;
+}
+
+.header-menu {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu li {
+    margin-left: 1rem;
+}
+
+.header-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+.bot-head1:hover {
+   
+    color: #ffbc93;
+}
+.bot-head2:hover{
+    
+    color: #ffbc93;
+}
+.bot-head3:hover {
+    
+    color: #ffbc93;
+}
+
+.img-logo {
+     color: #fff;
+     width: 80px;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+.text-foot-dir {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-foot-cop {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redes-sociales {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: -30px;
+    margin-bottom: -30px;
+}
+
+.face-logo {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.x-logo {
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.insta-logo {
+    margin: 25.5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-color: #ffA500;
+    padding: 1rem;
+    color: #fff;
+}
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.bot-volver {
+    background-color: #fff3e2;
+    color: #ff6200;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    justify-content: left;
+    align-items: left;
+    flex-direction: left;
+    margin-left: 310px;
+
+}
+
+.bot-volver:hover {
+    background-color: #a02800;
+    color: #fff;
+}

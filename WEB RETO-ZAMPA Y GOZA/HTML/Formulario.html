@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Zampa y Goza</title>
+    <link rel="stylesheet" href="../css/Formulario.css">
+</head>
+
+<body>
+    <div class="header">
+        <header style="background-color: #ffA500; padding: 1rem;">
+            <a href="../HTML/Inicio.html" target="_blank"><img
+                class="img-logo" src="../img/logo.png" alt="Zaragoza Image"></a>
+            <ul class="header-menu">
+                <li><a class="bot-head1" href="../HTML/Inicio.html"> Ver Zaragoza</a></li>
+                <li><a class="bot-head2" href="../HTML/Conócenos.html"> Conócenos</a></li>
+                <li><a class="bot-head3" href="../HTML/Gastronomía.html"> Gastronomía</a></li>
+            </ul>
+        </header>
+
+        <h1>Formulario de Ideas para Rutas Gastronómicas</h1>
+
+    <form action="procesar_formulario.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="idea">Tu Idea para la Ruta Gastronómica:</label>
+        <textarea id="idea" name="idea" rows="4" required></textarea>
+
+        <button type="submit">Enviar Idea</button>
+       
+    </form>
+        <footer >    
+            <p class="text-foot-dir">C. de Violeta Parra, 9, 50015 Zaragoza</p>
+            <footer>
+                <div class="redes-sociales">
+                    
+                    <a href="https://www.facebook.com/tupagina" target="_blank"><img class="face-logo" src="../img/facebook-icon.png" alt="Facebook"></a>
+                    <a href="https://www.twitter.com/tupagina" target="_blank"><img class="x-logo" src="../img/X-icon.png" alt="X"></a>
+                    <a href="https://www.instagram.com/tupagina" target="_blank"><img class="insta-logo" src="../img/Instagram-icon.png" alt="Instagram"></a>
+                </div>
+                <p class="text-foot-cop">© 2024 Zampa y Goza Zaragoza. Todos los derechos reservados.</p>
+            </footer>
+        </footer>
+    </div>
+
+</body>
+
+</html>

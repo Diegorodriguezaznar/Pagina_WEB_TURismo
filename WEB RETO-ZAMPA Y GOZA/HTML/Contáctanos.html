@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Zampa y Goza</title>
+    <link rel="stylesheet" href="../CSS/Contáctanos.css">
+</head>
+
+<body>
+    <div class="header">
+        <header style="background-color: #ffA500; padding: 1rem;">
+            <a href="./Inicio.html" target="_blank"><img
+                class="img-logo" src="../IMG/logo.png" alt="Zaragoza Image"></a>
+            <ul class="header-menu">
+                <li><a class="bot-head1" href="../HTML/Inicio.html"> Ver Zaragoza</a></li>
+                <li><a class="bot-head2" href="../HTML/Gastronomía.html"> Gastronomía</a></li>
+                <li><a class="bot-head3" href="../HTML/Actividades.html"> Actividades</a></li>
+            </ul>
+        </header>
+    </div>    
+
+    <div class="main-content">
+        <div class="contact-form">
+            <h2>Contáctanos</h2>
+            <p>Una empresa fantasma o empresa pantalla, también llamada sociedad interpuesta es una compañía que sirve como vehículo para diferentes operaciones empresariales sin tener ella misma activos significativos u operaciones propias. Las empresas fantasma no son ilegales en sí, y pueden tener objetivos empresariales legítimos.</p>
+
+            <form action="procesar_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <input type="submit" value="Enviar mensaje" class="boton">
+            </form>
+        </div>
+
+        <div class="map">
+            <h2><strong>Aqui nuestra ubicacion</strong></h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d668.0731510783445!2d-0.8791624315931769!3d41.669608988716114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0xd59149ade1f9a9f%3A0x66cc84d326d51c26!2sC.%20de%20Violeta%20Parra%2C%209%2C%2050015%20Zaragoza!3m2!1d41.669777599999996!2d-0.8788182!5e0!3m2!1ses!2ses!4v1710069372258!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <footer >    
+        <p class="text-foot-dir">C. de Violeta Parra, 9, 50015 Zaragoza</p>
+        <footer>
+            <div class="redes-sociales">
+                
+                <a href="https://www.facebook.com/tupagina" target="_blank"><img class="face-logo" src="../IMG/facebook-icon.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com/tupagina" target="_blank"><img class="x-logo" src="../IMG/X-icon.png" alt="X"></a>
+                <a href="https://www.instagram.com/tupagina" target="_blank"><img class="insta-logo" src="../IMG/Instagram-icon.png" alt="Instagram"></a>
+            </div>
+            <p class="text-foot-cop">© 2024 Zampa y Goza Zaragoza. Todos los derechos reservados.</p>
+        </footer>
+      </footer>
+      
+</body>
+
+</html>
